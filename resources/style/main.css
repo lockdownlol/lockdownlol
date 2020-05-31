@@ -1,0 +1,94 @@
+a{
+    color: #f8f9fa;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #f8f9fa;
+}
+
+div, body, html {
+    height: 100%;
+    /*background: #6b5b95;*/
+}
+
+.carousel-item{
+    position: relative;
+}
+
+.carousel-item a{
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    top: 50%;
+    margin-top: -50px;
+}
+
+.home div:first-child{
+    background-image: url("img/truedamage.jpg");
+    background-repeat:no-repeat;
+    filter:blur(4px);
+    background-size:cover;
+    height:100%;
+}
+
+.home button{
+    display: inline-flex;
+    align-items: center;
+}
+
+.home button:before{
+    background-image: url("img/discord-logo-white.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 4rem;
+    height: 4rem;
+    content: "";
+    display: block;
+}
+
+.home button:hover:before{
+    background-image: url("img/discord-logo-color.png");
+}
+
+.sign-up{
+    background-color: red;
+}
+
+.watch-live div{
+    padding: 10rem 10rem;
+}
+
+.about{
+    background-color: blue;
+}
+
+/* over riding bootstrap css */
+
+.carousel{
+    height: calc(100% - 56px)
+}
+
+.btn {
+    border-radius: 4rem;
+    padding: 1.375rem 2.75rem;
+}
+
+.btn-outline-light:hover {
+    color: #6A87E8;
+}
+
+@media (min-width: 992px){
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 2.5rem;
+        padding-left: .5rem;
+    }
+
+    .navbar-expand-lg .navbar-nav {
+        margin: auto;
+    }
+}
+
+/* ------------------------- */
