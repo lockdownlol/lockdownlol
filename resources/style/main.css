@@ -9,34 +9,45 @@ a:hover{
     color: #f8f9fa;
 }
 
-div, body, html {
+body, html {
     height: 100%;
     /*background: #6b5b95;*/
 }
 
-.carousel-item{
-    position: relative;
-}
-
 .carousel-item a{
-    position: absolute;
-    left: 50%;
-    margin-left: -50px;
-    top: 50%;
-    margin-top: -50px;
+    margin: auto;
 }
 
-.home div:first-child{
+.home .jumbotron{
+    margin: auto;
+    background-color: transparent;
+    color: #f8f9fa;
+    text-align: center;
+}
+
+.inner-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.inner-container div{
+    width: 100%;
+}
+
+.home .bg{
     background-image: url("img/truedamage.jpg");
     background-repeat:no-repeat;
-    filter:blur(4px);
     background-size:cover;
-    height:100%;
+    height: 1080px;
+    width: 100%;
 }
 
+
 .home button{
-    display: inline-flex;
+    display: flex;
     align-items: center;
+    margin: auto;
 }
 
 .home button:before{
@@ -90,5 +101,12 @@ div, body, html {
         margin: auto;
     }
 }
+
+@media (min-width: 1200px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        max-width: max-content;
+    }
+}
+
 
 /* ------------------------- */
