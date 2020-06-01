@@ -75,6 +75,14 @@ body, html {
     background-color: #6b5b95;
 }
 
+.sign-up .bg{
+    background-image: url("img/lucian.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 90rem;
+    width: 100%;
+}
+
 .watch-live div{
     padding: 10rem 10rem;
 }
