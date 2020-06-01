@@ -6,15 +6,15 @@ new Twitch.Embed("twitch-embed", {
     autoplay: false,
 });
 
-// $Lightning.use("c:ldlol_lightningout_app", function () {
-//     $Lightning.createComponent("c:ldlol_signup", {},
-//         "lightning",
-//         function (cmp) {
-//             console.log("LWC component was created");
-//             // do some stuff
-//         }
-//     );
-// },
-//     "https://lockdownlol-developer-edition.um1.force.com/"
-// );
+$Lightning.use("c:ldlol_lightningout_app", function () {
+    $Lightning.createComponent("c:ldlol_signup", {},
+        "lightning",
+        function (cmp) {
+            console.log("LWC component was created");
+            // do some stuff
+        }
+    );
+},
+    "https://lockdownlol-developer-edition.um1.force.com/"
+);
 
