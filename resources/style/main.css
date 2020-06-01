@@ -83,6 +83,14 @@ body, html {
     width: 100%;
 }
 
+.watch-live .bg{
+    background-image: url("img/arena.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 90rem;
+    width: 100%;
+}
+
 .watch-live div{
     padding: 10rem 10rem;
 }
