@@ -40,9 +40,21 @@ body, html {
 
 .home .bg{
     background-image: url("img/truedamage.jpg");
+}
+
+.sign-up .bg{
+    background-image: url("img/lucian.jpg");
+}
+
+.watch-live .bg{
+    background-image: url("img/arena.jpg");
+}
+
+.bg{
+    background-position: center;
     background-repeat:no-repeat;
     background-size:cover;
-    height: 90rem;
+    height: 100%;
     width: 100%;
 }
 
@@ -66,31 +78,6 @@ body, html {
 .home button:hover:before{
     background-image: url("img/discord-logo-color.png");
 }
-
-.sign-up{
-    background-color: #6b5b95;
-}
-
-.watch-live{
-    background-color: #6b5b95;
-}
-
-.sign-up .bg{
-    background-image: url("img/lucian.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    height: 90rem;
-    width: 100%;
-}
-
-.watch-live .bg{
-    background-image: url("img/arena.jpg");
-    background-repeat:no-repeat;
-    background-size:cover;
-    height: 90rem;
-    width: 100%;
-}
-
 .watch-live div{
     padding: 10rem 10rem;
 }
