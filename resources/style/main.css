@@ -126,3 +126,19 @@ body, html {
 
 
 /* ------------------------- */
+
+.slds-scope .slds-button_brand, .slds-scope .slds-button--brand {
+    background-color: rgb(107, 91, 149);
+    border-color: rgb(107, 91, 149);
+}
+
+.slds-scope .slds-checkbox_toggle [type=checkbox]:checked+.slds-checkbox_faux, .slds-scope .slds-checkbox_toggle [type=checkbox]:checked+.slds-checkbox--faux, .slds-scope .slds-checkbox_toggle [type=checkbox]:checked~.slds-checkbox_faux, .slds-scope .slds-checkbox_toggle [type=checkbox]:checked~.slds-checkbox--faux, .slds-scope .slds-checkbox_toggle [type=checkbox]:checked+.slds-checkbox_faux_container .slds-checkbox_faux, .slds-scope .slds-checkbox_toggle [type=checkbox]:checked+.slds-checkbox--faux_container .slds-checkbox--faux, .slds-scope .slds-checkbox--toggle [type=checkbox]:checked+.slds-checkbox_faux, .slds-scope .slds-checkbox--toggle [type=checkbox]:checked+.slds-checkbox--faux, .slds-scope .slds-checkbox--toggle [type=checkbox]:checked~.slds-checkbox_faux, .slds-scope .slds-checkbox--toggle [type=checkbox]:checked~.slds-checkbox--faux, .slds-scope .slds-checkbox--toggle [type=checkbox]:checked+.slds-checkbox_faux_container .slds-checkbox_faux, .slds-scope .slds-checkbox--toggle [type=checkbox]:checked+.slds-checkbox--faux_container .slds-checkbox--faux {
+    border-color: rgb(107, 91, 149);
+    background-color: rgb(107, 91, 149);
+}
+
+.slds-scope .slds-checkbox_toggle [type=checkbox]:checked+.slds-checkbox_faux:hover, .slds-scope .slds-checkbox_toggle [type=checkbox]:checked+.slds-checkbox_faux:focus, .slds-scope .slds-checkbox_toggle [type=checkbox]:checked+.slds-checkbox--faux:hover, .slds-scope .slds-checkbox_toggle [type=checkbox]:checked+.slds-checkbox--faux:focus, .slds-scope .slds-checkbox_toggle [type=checkbox]:checked~.slds-checkbox_faux:hover, .slds-scope .slds-checkbox_toggle [type=checkbox]:checked~.slds-checkbox_faux:focus, .slds-scope .slds-checkbox_toggle [type=checkbox]:checked~.slds-checkbox--faux:hover, .slds-scope .slds-checkbox_toggle [type=checkbox]:checked~.slds-checkbox--faux:focus, .slds-scope .slds-checkbox_toggle [type=checkbox]:checked+.slds-checkbox_faux_container .slds-checkbox_faux:hover, .slds-scope .slds-checkbox_toggle [type=checkbox]:checked+.slds-checkbox_faux_container .slds-checkbox_faux:focus, .slds-scope .slds-checkbox_toggle [type=checkbox]:checked+.slds-checkbox--faux_container .slds-checkbox--faux:hover, .slds-scope .slds-checkbox_toggle [type=checkbox]:checked+.slds-checkbox--faux_container .slds-checkbox--faux:focus, .slds-scope .slds-checkbox--toggle [type=checkbox]:checked+.slds-checkbox_faux:hover, .slds-scope .slds-checkbox--toggle [type=checkbox]:checked+.slds-checkbox_faux:focus, .slds-scope .slds-checkbox--toggle [type=checkbox]:checked+.slds-checkbox--faux:hover, .slds-scope .slds-checkbox--toggle [type=checkbox]:checked+.slds-checkbox--faux:focus, .slds-scope .slds-checkbox--toggle [type=checkbox]:checked~.slds-checkbox_faux:hover, .slds-scope .slds-checkbox--toggle [type=checkbox]:checked~.slds-checkbox_faux:focus, .slds-scope .slds-checkbox--toggle [type=checkbox]:checked~.slds-checkbox--faux:hover, .slds-scope .slds-checkbox--toggle [type=checkbox]:checked~.slds-checkbox--faux:focus, .slds-scope .slds-checkbox--toggle [type=checkbox]:checked+.slds-checkbox_faux_container .slds-checkbox_faux:hover, .slds-scope .slds-checkbox--toggle [type=checkbox]:checked+.slds-checkbox_faux_container .slds-checkbox_faux:focus, .slds-scope .slds-checkbox--toggle [type=checkbox]:checked+.slds-checkbox--faux_container .slds-checkbox--faux:hover, .slds-scope .slds-checkbox--toggle [type=checkbox]:checked+.slds-checkbox--faux_container .slds-checkbox--faux:focus {
+    background-color: rgb(107, 91, 149);
+}
+/*--- SF CSS Override ---*/
+
