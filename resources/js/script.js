@@ -1,7 +1,7 @@
 new Twitch.Embed("twitch-embed", {
     width: "100%",
     height: "100%",
-    channel: "sinatraa",
+    channel: "hiko",
     layout: "video",
     autoplay: false,
 });

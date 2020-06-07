@@ -2,16 +2,23 @@ a{
     color: #f8f9fa;
     text-decoration: none;
     background-color: transparent;
+    opacity: 0.8;
 }
 
 a:hover{
     text-decoration: none;
     color: #f8f9fa;
+    opacity: 1;
 }
 
 body, html {
     height: 100%;
     /*background: #6b5b95;*/
+}
+
+nav.ld-dark, footer.ld-dark{
+    background-color: #222;
+    border-color: #080808;
 }
 
 .carousel-item {
@@ -47,17 +54,20 @@ body, html {
 }
 
 .watch-live .bg{
-    background-image: url("img/arena.jpg");
+    background-image: url("img/shen.jpg");
+}
+
+.about .bg{
+    background-image: url("img/kayle.jpg");
 }
 
 .bg{
     background-position: center;
     background-repeat:no-repeat;
     background-size:cover;
-    height: 100%;
+    min-height: calc(100vh - 116px);
     width: 100%;
 }
-
 
 .home button{
     display: flex;
@@ -78,8 +88,8 @@ body, html {
 .home button:hover:before{
     background-image: url("img/discord-logo-color.png");
 }
-.watch-live div{
-    padding: 10rem 10rem;
+.watch-live .inner-container{
+    padding: 5rem 5rem;
 }
 
 .about{
@@ -88,7 +98,7 @@ body, html {
 
 
 #twitch-embed{
-    height:100%;
+    height: calc(100vh - 20rem);
 }
 
 .carousel-inner{
@@ -98,12 +108,79 @@ body, html {
 /* over riding bootstrap css */
 
 .carousel{
-    height: calc(100% - 56px)
+    /*height: calc(100% - 56px)*/
 }
 
 .btn {
     border-radius: 4rem;
     padding: 1.375rem 2.75rem;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 60px;
+    line-height: 60px;
+    background-color: #f5f5f5;
+}
+
+footer .container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+footer ul li{
+    float: left;
+    margin: 1rem 1rem 0rem 1rem;
+}
+
+.social ul{
+    
+    
+}
+
+.social ul li{
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 2rem;
+    height: 2rem;
+    content: "";
+    display: block;
+    
+    
+    
+    border-radius: 50%;
+}
+
+.social ul .twitter{
+    background-image: url("img/twitter.png");
+}
+
+.social ul .facebook{
+    background-image: url("img/facebook.png");
+}
+
+.social ul .youtube{
+    background-image: url("img/youtube.png");
+}
+
+.social ul .twitch{
+    background-image: url("img/twitch.png");
+}
+
+.contact ul li, .copyright{
+    color: #fff;
+}
+
+.copyright{
+    opacity: 0.5;
 }
 
 .btn-outline-light:hover {
@@ -129,6 +206,8 @@ body, html {
 
 
 /* ------------------------- */
+
+
 
 
 
