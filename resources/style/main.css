@@ -101,6 +101,10 @@ nav.ld-dark, footer.ld-dark{
     height: calc(100vh - 20rem);
 }
 
+#lightning{
+    margin: auto;
+}
+
 .carousel-inner{
     height: 100%;
 }
